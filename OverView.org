@@ -1,0 +1,4 @@
+#+STARTUP: overview
+#+AUTHOR: n-critser
+
+
