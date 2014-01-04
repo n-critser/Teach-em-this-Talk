@@ -1,0 +1,24 @@
+#+STARTUP: overview
+#+AUTHOR: n-critser
+
+* Basic Node.js on Heroku basic from heroku
+http://node-js-sample.herokuapp.com/
+
+http://young-coast-6565.herokuapp.com deployed to Heroku
+To git@heroku.com:young-coast-6565.git
+
+
+
+* Bitstarter Heroku App
+       http://boiling-eyrie-8102.herokuapp.com deployed to Heroku
+
+To git@heroku.com:boiling-eyrie-8102.git
+ * [new branch]      master -> master
+
+* Adding Files to Heroku App
+** Git push
+chaos@chaos ~/Teach-em-this-Talk/bitstarter $ git add web.js
+chaos@chaos ~/Teach-em-this-Talk/bitstarter $ git commit -m "2 "
+[master 753d89f] 2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+chaos@chaos ~/Teach-em-this-Talk/bitstarter $ git push heroku master
