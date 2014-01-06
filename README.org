@@ -1,0 +1,38 @@
+#+TITLE:Teach-Em-This-Talk
+#+AUTHOR:n-critser
+#+DATE: 2014-01-01
+
+* Web-Interface
+** Speaking Box
+** Word Map Picture Bridge
+** Lesson Script
+
+* Database
+** Users
+1. History
+2. Skill Level
+3. Home Language
+4. Acquired Languages
+** Script recordings
+1. MetaData
+2. Emotions
+3. Dialect
+4. Visual Data
+** OPC3-Teachers 
+1. Individualisation
+2. Language Environment
+3. Quizzing
+4. Emotional Ques
+
+
+* OPC3-Teachers
+** Specification
+*** Initial-State
+*** Sensors-&-Input
+*** Actions
+*** Memory
+** Components
+*** Emotion-Displays
+*** Vocalizations
+*** Microphone-Input
+*** Brain-(pi)
