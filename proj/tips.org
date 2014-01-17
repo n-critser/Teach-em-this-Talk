@@ -2,6 +2,69 @@
 #+AUTHOR: n-critser
 #+TITLE: tips.org
 
+* Notes from AirbNB
+** BreakDown
+***  WEB SITE OLD STyle
+Client  ---thin
+Server  ----fat
+
+*** WEB APP
+client   ----Fat
+Server   ----Thin
+
+
+** Single Page App
+old Gmail
+*** Never a fullpage refresh
+*** navigate the app 
+*** app logic on the client
+*** fetch data on demand (not a new page)
+** HOW TO DO IT
+*** JavaScript
+*** Why is JS big now?
+JS is faster !!
+Google V8 JS engine
+Browser Features (HTML5- Webgl, pushState, localStorage)
+User Expectation
+
+** HOW BnB did it
+*** BackBone.js MV* Library
+Backbone.View
+Backbone.Model
+Backbone.Collection
+Backbone.Router
+
+*** JQuery 
+** Think about building an Application , rather than manipulating HTML
+** Push State ( change url in browser without full refresh)
+** Easy Way VS Hard Way
+*** Easy Way single page app
+JS app running on the Client
+Server Tech agnostic
+Poor SEO : not crawlable (google fail)
+Most App runs on the client (Server is Static Assets and Logs)
+Performance hit to download & get JS before rendering
+
+*** Hard Way  : The holy grail
+Client / Server Bulking : 
+Everything runs on both sides.  
+Fast refresh w/ pushState (refresh ---> full page HTML)
+Provides SEO and good user experience ! Analytics 
+Initial PageLoad is faster
+*** Enter Rendr : 
+Backbone.js + Node.js 
+Pulls Backbone to the server (from the client)
+Write you app once : running on either side of the browser
+* Cool stuff
+** ember 
+** Derby 
+** Meteor JS 
+* hacking
+** Technological vigilantism
+** Cross-functional Collaboration
+** Creating and Learning Together
+
+
 * copyWriting
 ** from stanford startup eng...
 Copywriting

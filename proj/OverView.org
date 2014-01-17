@@ -22,3 +22,65 @@ chaos@chaos ~/Teach-em-this-Talk/bitstarter $ git commit -m "2 "
 [master 753d89f] 2
  1 file changed, 1 insertion(+), 1 deletion(-)
 chaos@chaos ~/Teach-em-this-Talk/bitstarter $ git push heroku master
+** Staging push
+** Production push 
+* Heroku Commmands 
+
+* Node Debugging
+DEBUGGING LIVE CODE !!!
+** eXAMPLE w-cOMMANDS  
+chaos@chaos ~/Dev/web_dev/Teach-Em-Web/node-Example $ node debug debugger-examples.js 
+< debugger listening on port 5858
+connecting... ok
+break in debugger-examples.js:3
+
+debug> cont
+
+debug> repl
+Press Ctrl + C to leave debug repl
+> counter
+6
+> req.headers
+{ connection: 'keep-alive',
+  'accept-language': 'en-US,en;q=0.8',
+  'accept-encoding': 'gzip,deflate,sdch',
+  'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30... (length: 105)',
+  accept: '*/*',
+  host: 'localhost:6060' }
+> req.url
+'/favicon.ico'
+
+* Node Functionals
+But the server doesn't need the thing. It only needs to get something done, 
+and to get something done, you don't need things at all, you need actions. 
+You don't need nouns, you need verbs.
+
+
+Understanding the fundamental mind-shift that's at the core of this idea 
+is what made me really understand functional programming. 
+
+
+** Like Lisp macros or flets
+Read this carefully! What we are doing here is, we pass the function 
+say as the first parameter to the execute function. Not the return value of say, but say itself! 
+*****************************
+function say(word) {
+  console.log(word);
+}
+
+function execute(someFunction, value) {
+  someFunction(value);
+}
+
+execute(say, "Hello");
+
+
+OR ******
+DECLARE FUNCTION AND DEFINE INLINE 
+function execute(someFunction, value) {
+  someFunction(value);
+}
+
+execute(function(word){ console.log(word) }, "Hello");
+
+
